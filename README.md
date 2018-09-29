@@ -1,18 +1,8 @@
-# Learn Next.js
-> https://nextjs.org/
+This branch refers to the deploy building process of the Next.js app, using a custom server.
 
-My repository of a simple Next.js application, by following the docs [here](https://nextjs.org/learn/).
-
-# Installation
+## How to deploy
 
 ```bash
-git clone https://github.com/rodgracas/learn-nextjs.git
-cd learn-nextjs
-npm install
-```
-
-# Run
-
-```bash
-npm run dev
+npm run build
+npm run start # NODE_ENV=production node server.js
 ```
