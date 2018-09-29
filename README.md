@@ -16,3 +16,5 @@ npm install
 ```bash
 npm run dev
 ```
+
+Now you can access the app by navigating to [http://localhost:3000](http://localhost:3000).
